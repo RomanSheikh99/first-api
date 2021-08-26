@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 10px 0;
+    background: #7a7ae8;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+
+main {
+    width: 90%;
+    margin: 40px auto;
+}
+
+table {
+    background: aquamarine;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    line-height: 1.6;
+}
+
+tr {
+    background: #9999998c;
+}
+
+td {
+    padding: 5px;
+}
+
+.tower{
+    text-transform: lowercase;
+}
+
+#post-container {
+    margin: 40px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.post {
+    background: mediumpurple;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+
+h2.post-title {
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.4;
+    margin-top: 8px;
+}
+
+span.sub-title {
+    text-transform: capitalize;
+    font-size: .8rem;
+    color: aqua;
+    word-spacing: 3px;
+}
